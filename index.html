@@ -1,0 +1,151 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+ <!-- class="d-inline-block align-text-top" -->
+<body>
+    
+  <div class="weather">
+    <nav class="navbar navbar-expand-lg  ">
+      <div class="container">
+          <a class="navbar-brand ms-lg-5 ms-sm-0  " href="#" >
+              <img src="image/logo@2x.png" alt="Logo" width="60" height="40" class="  d-inline-block align-middle">
+              <div class="type d-inline-block align-middle ms-1">
+                  <h1 class=" mb-1 text-white fw-bold">Weahter</h1>
+                  <small class="text-white" >tagline goes here</small>
+              </div>
+            </a>
+        <button class="navbar-toggler   "  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars text-white fa-sm "></i>
+        </button>
+
+        <div class="collapse navbar-collapse rounded-3  " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0   d-flex justify-content-center align-items-center  ">
+            <li class="nav-item   ">
+              <a class="nav-link active  " aria-current="page" href="#">Home</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link   " href="#">News</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link   " href="#">live cameras</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link   " href="#">Photos</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link   " href="home.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="serachNav ">
+      <div class="container">
+        <form class="find position-relative">
+          <input class="form-control  w-100 m-auto text-secondary" placeholder="Find your location.." type="text"  id="search">
+          <input type="button" class="btn  text-white position-absolute " value="Find" >
+        </form>
+      </div>
+    </div>
+
+
+    <div class="forecast">
+      <div class="container">
+        <div class="forcast-table  row rounded-2 w-100   " id="forecast">
+            <!-- <div class="today col-lg-4 col-md-12 "> 
+            <div class="todayHeader p-2  d-flex justify-content-between text-center border-end border-1 border-opacity-25 border-secondary">
+              <div class="day ">
+                sunday
+              </div>
+              <div class="date ">
+                12March
+              </div>
+            </div>
+            <div class="todayBody text-left" id="cityName">
+               <div class="cityName ">cairo</div> 
+              <div class="degree text-white">
+                <div class="degreeNum d-inline-block  align-middle"> 18 <sup>o</sup> c  </div>
+                <div class="icon d-inline-block align-middle" id="icon">
+                  <img src="image/116.png" >
+                </div> 
+              </div>
+              <div class="special">Partly cloudy</div>
+              <span><img src="image/icon-umberella.png">20%</span>
+              <span><img src="image/icon-wind.png">18km/h</span>
+              <span><img src="image/icon-compass.png">East</span>
+            </div>
+          </div>  -->
+
+
+         <!--- <div class="tomorrow col-lg-4 col-md-12 ">
+            <div class="Header p-2 text-center">
+              <div class="day ">
+                sunday
+              </div>
+            </div>
+              
+            <div class="content text-center">
+               <div class="icon">  <img src="image/113.png"> </div>
+               <div class="degree text-white">23 <sup>o</sup> c </div>
+               <small>9.6<sup>o</sup></small>
+               <div class="special">sunny</div>
+            </div>
+
+          </div>
+           
+
+          -->
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form class="subscribe  position-relative">
+              <input class="form-control  w-100 m-auto" placeholder="Enter your email to Subscribe... " type="text">
+              <input type="submit" class="btn  text-white position-absolute " value="Subscribe" >
+            </form>
+          </div>
+          <div class="col-lg-3 col-md-offset-1 col-md-12">
+            <div class="social ms-lg-5 mt-2">
+              <a class=" text-decoration-none rounded-circle text-center d-inline-block "><i class="fa-brands fa-facebook-f mt-2"></i></a>
+              <a class=" text-decoration-none rounded-circle text-center  d-inline-block "><i class="fa-brands fa-twitter mt-2"></i></i></a>
+              <a class=" text-decoration-none rounded-circle text-center  d-inline-block"><i class="fa-brands fa-google-plus-g mt-2"></i></i></a>
+              <a class=" text-decoration-none rounded-circle text-center  d-inline-block"> <i class="fa-brands fa-pinterest-p mt-2"></i></a>
+            </div>
+          </div>
+
+          <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+    
+  </div>
+
+
+   
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
